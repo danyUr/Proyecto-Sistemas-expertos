@@ -14,7 +14,7 @@
 	position: relative;
     background: url(../img/Fondos/fondo3.jpg);
     background-size: cover;
-    min-height: 600px;
+    min-height: 450px;
 
 }
 
@@ -26,4 +26,7 @@
     width: 100%;
     height: 100%;
 
+}
+.team{
+    background: rgba(39, 60, 117, 1);
 }
