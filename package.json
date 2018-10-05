@@ -14,5 +14,10 @@
     "express": "^4.16.3",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
   }
 }
