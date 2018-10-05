@@ -27,6 +27,6 @@
     height: 100%;
 
 }
-.team{
+.team, footer{
     background: rgba(39, 60, 117, 1);
 }
