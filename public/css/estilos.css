@@ -1,26 +1,26 @@
-.navbar {
-	top: 0;
-	position: relative;
-    box-shadow: 2px 2px 5px #FF7153;
-    opacity: 1;
-    z-index: 1;
+
+.navbar{
+    background-color: rgba(52, 58, 64,0.4)!important;
 }
 
 .navbar .nav-item .nav-link {
     color: white;
 }
-
+.jumbotron{
+    background: rgba(154,154,154,0.1);
+    
+}
 .main-header {
 	position: relative;
-    background: url(../img/Fondos/fondo3.jpg);
+    background: url(../img/Fondos/code_coding_binary_code_abstract_patterns-553503.jpg!d.jpg);
     background-size: cover;
-    min-height: 450px;
+    min-height: 910px;
 
 }
 
 .background-overlay {
 	position: absolute;
-    background: rgba(39, 60, 117, 0.4);
+    background: rgba(39, 60, 117, 0.1);
     top: 0;
     left:0;
     width: 100%;
@@ -30,3 +30,6 @@
 .team, footer{
     background: rgba(39, 60, 117, 1);
 }
+
+
+
