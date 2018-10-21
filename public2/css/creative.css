@@ -90,6 +90,10 @@ img::-moz-selection {
   background: transparent;
 }
 
+.servicios{
+  background: url(../img/Fondos/opacity fondo.png);
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -232,7 +236,6 @@ header.masthead p {
 .btn {
   font-weight: 700;
   text-transform: uppercase;
-  border: none;
   border-radius: 300px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
