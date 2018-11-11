@@ -11,95 +11,49 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
-        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-        <ul class="navbar-nav px-3">
-            <li class="nav-item text-nowrap">
-                <a class="nav-link" href="#">Sign out</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark text-center ">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="rounded w-3" src="img/logos_version_icono/icono2.png" width="35" height="35" alt="Gear Code"> Gear Code
+        </a>
+        <div class="navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <div class="dropdown">
+                        <div id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="profile-image rounded " src="img/Fondos/perfill.png" alt="">
+                        </div>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                </li>
+                <li class="nav-item px-4 py-1">
+                    <a href="#" class="bg"><i class=" fas fa-bell fa-2x "></i></a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <div class="container-fluid">
         <div class="row">
-            <nav class="col-md-2 d-md-block bg-light sidebar">
+            <nav class="col-md-4 bg-light  d-md-block sidebar">
                 <div class="sidebar-sticky">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">
-                  <span data-feather="home"></span>
-                  Dashboard <span class="sr-only">(current)</span>
-                </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                  <span data-feather="file"></span>
-                  Orders
-                </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                  <span data-feather="shopping-cart"></span>
-                  Products
-                </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                  <span data-feather="users"></span>
-                  Customers
-                </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                  <span data-feather="bar-chart-2"></span>
-                  Reports
-                </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                  <span data-feather="layers"></span>
-                  Integrations
-                </a>
-                        </li>
-                    </ul>
-                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-              <span>Saved reports</span>
-              <a class="d-flex align-items-center text-muted" href="#">
-                <span data-feather="plus-circle"></span>
-              </a>
-            </h6>
-                    <ul class="nav flex-column mb-2">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
-                  Current month
-                </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
-                  Last quarter
-                </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
-                  Social engagement
-                </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
-                  Year-end sale
-                </a>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="container py-3">
+                        <p class="h2 text-center">DASHBOARD</p>
+                        <hr>
+                    </div>
+                    <div class="list-group grupo-navegacion">
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary h4"><img src="img/Fondos/GOLD.png" alt="">  GEARS</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary h4">
+                      <img src="img/Fondos/BLUE.png" alt="css/">  PROYECTOS</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary h4"><img src="img/Fondos/GREEN.png" alt=""> PUBLICACIONES</a>
+                    </div>
             </nav>
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+            <main role="main" class="col-md-7 ml-sm-auto col-lg-8 pt-3 px-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
                     <h1 class="h2">Dashboard</h1>
                     <div class="btn-toolbar mb-2 mb-md-0">

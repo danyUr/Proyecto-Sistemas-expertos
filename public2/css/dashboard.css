@@ -1,3 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, arial, sans-serif;
+}
+.sidebar{
+  background: url(../img/Fondos/fondo_nav.png);
+}
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 61px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
 .profile-image{
   width: 40px;
   height: 40px;
@@ -14,5 +43,16 @@ li a:hover{
   width: 30px;
   height: 30px;
 }
+
+.grupo-navegacion{
+opacity: .9;
+}
+
+hr {
+color: #f8b500;
+background-color: #f8b500;
+height: 5px;
+border:none;}
+
 
 
