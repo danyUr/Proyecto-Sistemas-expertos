@@ -1,9 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  outline: 0;
-}
-
 
 html,
 body {
@@ -12,11 +6,6 @@ body {
   font-family: Verdana, arial, sans-serif;
 }
 
-.notificaciones{
-  left: 90% !important; 
-
-
-}
 .sidebar{
   background: url(../img/Fondos/fondo_nav.png);
 }
@@ -29,12 +18,6 @@ body {
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-  .sidebar-sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-}
 .profile-image{
   width: 40px;
   height: 40px;
@@ -52,9 +35,6 @@ li a:hover{
   height: 30px;
 }
 
-.grupo-navegacion{
-opacity: .9;
-}
 
 hr {
 color: #f8b500;
